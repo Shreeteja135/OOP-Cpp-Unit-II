@@ -8,36 +8,36 @@
 
 ## List of Programs
 
-1. Program_01/Inheritance.cpp
-2. Program_02/ProtectedMemberAccess.cpp
-3. Program_03/Publicvspvt.cpp
-4. Program_04/Multilevel.cpp
-5. Program_05/Heri_inh.cpp
-6. Program_06/multipleIn.cpp
-7. Program_07/ambiguityMultiple.cpp
+1. Basic_Inheritance/Inheritance.cpp
+2. Protected_Member_Access/ProtectedMemberAccess.cpp
+3. Public_vs_Private_Inheritance/Publicvspvt.cpp
+4. Multilevel_Inheritance/Multilevel.cpp
+5. Hierarchical_Inheritance/Heri_inh.cpp
+6. Multiple_Inheritance/multipleIn.cpp
+7. Ambiguity_in_Multiple_Inheritance/ambiguityMultiple.cpp
 8. Outputs/
 
 ## Brief Description of Each Program
 
-1. Program_01 - Inheritance.cpp
+1. Basic_Inheritance - Inheritance.cpp
    Demonstrates basic single inheritance where a derived class inherits the properties and behavior of a single base class.
 
-2. Program_02 - ProtectedMemberAccess.cpp
+2. Protected_Member_Access - ProtectedMemberAccess.cpp
    Shows how protected members of a base class can be accessed by a derived class while remaining hidden from outside access.
 
-3. Program_03 - Publicvspvt.cpp
+3. Public_vs_Private_Inheritance - Publicvspvt.cpp
    Explains the difference between public and private inheritance and how access control changes in each case.
 
-4. Program_04 - Multilevel.cpp
+4. Multilevel_Inheritance - Multilevel.cpp
    Demonstrates multilevel inheritance using a class hierarchy where one derived class becomes the base of another class.
 
-5. Program_05 - Heri_inh.cpp
+5. Hierarchical_Inheritance - Heri_inh.cpp
    Illustrates hierarchical inheritance where one base class is inherited by multiple derived classes.
 
-6. Program_06 - multipleIn.cpp
+6. Multiple_Inheritance - multipleIn.cpp
    Demonstrates multiple inheritance, where a class inherits from two base classes and combines their members.
 
-7. Program_07 - ambiguityMultiple.cpp
+7. Ambiguity_in_Multiple_Inheritance - ambiguityMultiple.cpp
    Shows the ambiguity problem that may occur in multiple inheritance and how scope resolution is used to resolve member conflicts.
 
 8. Outputs/
@@ -47,19 +47,19 @@
 
 OOP-Cpp-Unit-II/
 ├── README.md
-├── Program_01/
+├── Basic_Inheritance/
 │   └── Inheritance.cpp
-├── Program_02/
+├── Protected_Member_Access/
 │   └── ProtectedMemberAccess.cpp
-├── Program_03/
+├── Public_vs_Private_Inheritance/
 │   └── Publicvspvt.cpp
-├── Program_04/
+├── Multilevel_Inheritance/
 │   └── Multilevel.cpp
-├── Program_05/
+├── Hierarchical_Inheritance/
 │   └── Heri_inh.cpp
-├── Program_06/
+├── Multiple_Inheritance/
 │   └── multipleIn.cpp
-├── Program_07/
+├── Ambiguity_in_Multiple_Inheritance/
 │   └── ambiguityMultiple.cpp
 └── Outputs/
 
