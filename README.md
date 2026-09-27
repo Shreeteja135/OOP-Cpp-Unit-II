@@ -5,19 +5,33 @@ PRN: 125UAD1061
 Class/Division: SY AI&DS D
 Course: Object Oriented Programming using C++
 
+
+## Unit Covered
+
+Unit II - Inheritance
+
 ## Programs
 
-1. Inheritance.cpp - Basic inheritance
-2. ProtectedMemberAccess.cpp - Protected members
-3. Publicvspvt.cpp - Public vs Private inheritance
-4. Multilevel.cpp - Multilevel inheritance
-5. Heri_inh.cpp - Hierarchical inheritance
-6. multipleIn.cpp - Multiple inheritance
-7. ambiguityMultiple.cpp - Ambiguity in multiple inheritance
+### Program 1
+Basic Inheritance
 
+### Program 2
+Protected Member Access
 
+### Program 3
+Public vs Private Inheritance
 
+### Program 4
+Multilevel Inheritance
 
-## Program output
+### Program 5
+Hierarchical Inheritance
 
+### Program 6
+Multiple Inheritance
+
+### Program 7
+Ambiguity in Multiple Inheritance
+
+## Repository Link
 
