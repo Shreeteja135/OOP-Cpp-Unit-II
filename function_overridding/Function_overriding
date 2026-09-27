@@ -1,0 +1,80 @@
+#include <iostream>
+
+using namespace std; //  use cout directly without std::
+
+/*
+    Base Class: Vehicle
+    This is the parent class.
+    All vehicles can move, so we create a common move() function here.
+*/
+class Vehicle {
+public:
+
+    // virtual allows derived classes to provide their own version of  method [move()]
+    virtual void move() const {
+        cout << "Vehicle is moving\n";
+    }
+
+    // Virtual destructor ensures proper object destruction
+    // when inheritance is used.
+    virtual ~Vehicle() = default;
+};
+
+/*
+    Derived Class: Car
+
+    Car inherits properties and functions from Vehicle.
+    Syntax:
+    class Car : public Vehicle
+
+    This is called inheritance.
+*/
+class Car : public Vehicle {
+public:
+
+    // override means this function replaces
+    // the move() function of the base class.
+    void move() const override {
+        cout << "Car moves on roads\n";
+    }
+};
+
+/*
+    Derived Class: Boat
+
+    Boat also inherits from Vehicle.
+*/
+class Boat : public Vehicle {
+public:
+
+    // Boat provides its own implementation of move()
+    void move() const override {
+        cout << "Boat moves on water\n";
+    }
+};
+
+int main() {
+
+    // Creating object of Car class
+    Car car;
+
+    // Creating object of Boat class
+    Boat boat;
+
+    /*
+        Calling move() function.
+
+        Even though both functions have the same name,
+        they give different outputs.
+
+        This is called Polymorphism.
+        
+        One function behaves in different ways.
+    */
+    car.move();
+
+    boat.move();
+
+    // Program ends successfully
+    return 0;
+}
