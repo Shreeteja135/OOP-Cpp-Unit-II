@@ -1,0 +1,33 @@
+#include <iostream> // preprocessor derictive  evoke the input/output heater file
+using namespace std; // using satndard cpp namespace
+
+class Base { // class named Base
+public: // access specifier - can be assec every where
+Base() { // class method named Base
+    cout << "Base constructor\n";
+}
+
+~Base() { // Destructor of Base class
+    cout << "Base destructor\n";
+}
+};
+class Derived : public Base {
+public:
+Derived() { // Constructor of Derived class
+
+    cout << "Derived constructor\n";
+}
+
+~Derived() { // Destructor of Derived class
+    cout << "Derived destructor\n";
+}
+};
+ // Creating object of Derived class
+// Base constructor executes first, then Derived constructor
+int main() {
+Derived obj;
+return 0;
+
+// When program ends:
+    // Derived destructor executes first, then Base destructor
+}
